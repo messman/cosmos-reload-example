@@ -1,0 +1,8 @@
+{
+	"watchDirs": [
+		"./src"
+	],
+	"dom": {
+		"containerQuerySelector": "#react-root"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"name": "cosmos-reload-example",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "webpack",
+		"static": "cd dist && python -m SimpleHTTPServer 8889",
+		"cosmos": "COSMOS=true cosmos"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/messman/cosmos-reload-example.git"
+	},
+	"author": "Andrew Messier",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/messman/cosmos-reload-example/issues"
+	},
+	"homepage": "https://github.com/messman/cosmos-reload-example#readme",
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.30",
+		"@types/react-dom": "^17.0.9",
+		"clean-webpack-plugin": "^4.0.0",
+		"html-webpack-plugin": "^5.4.0",
+		"react-cosmos": "^5.6.4",
+		"ts-loader": "^9.2.6",
+		"typescript": "^4.4.4",
+		"webpack": "^5.58.2",
+		"webpack-cli": "^4.9.0"
+	}
+}
