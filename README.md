@@ -1,5 +1,7 @@
 # React Cosmos Reload Issue Example
 
+This is for [react-cosmos/react-cosmos #1353](https://github.com/react-cosmos/react-cosmos/issues/1353).
+
 A problem occurs when relying on TypeScript compilation error checking while using React Cosmos. 
 
 In simple terms: when webpack compilation fails due to a TypeScript compilation error (for updates, not initial build), the hot module replacement code will infinitely refresh the test frame.
